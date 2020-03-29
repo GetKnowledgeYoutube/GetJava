@@ -11,6 +11,6 @@ public class Demo implements LessonRunner {
 
     @Override
     public void runLesson(String[] args) {
-        System.out.println("Demo run");
+        System.out.println("Hello, " + "Denis");
     }
 }
