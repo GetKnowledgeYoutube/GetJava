@@ -36,6 +36,6 @@ public class HomeWork1 implements LessonRunner {
         *  Шаблон: "Hello, ${username}!"
         *
         * */
-        return "";
+        return String.format("Hello, %s!", username);
     }
 }
